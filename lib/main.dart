@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_tutorial/screens/inherited_state.dart';
-import 'package:widget_tutorial/screens/user_profile_screen.dart';
+import 'package:widget_tutorial/view_group/view_group.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: '',),
+      home: const ColumnScreen(),
     );
   }
 }
